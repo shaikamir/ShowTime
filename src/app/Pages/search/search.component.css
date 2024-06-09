@@ -1,0 +1,15 @@
+.movie-image {
+    width: 110%;
+    height: 150px;
+    object-fit: cover; /* Ensure the aspect ratio is maintained */
+    max-width: 100%; /* Ensure the image fits within its container */
+}
+
+.card-text.overview {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    max-height: 4.5em;
+}

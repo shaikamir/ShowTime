@@ -1,0 +1,53 @@
+.carousel-inner {
+    height: 580px;
+}
+
+.carousel-inner .carousel-item {
+    height: 550px;
+    object-fit: cover;
+}
+
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px; /* Adjust this value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: to improve text readability */
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel-caption h2 {
+    color: red
+}
+
+.carousel-caption h2, .carousel-caption p {
+    margin: 0;
+}
+
+.poster {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+
+.poster_img{
+    max-height: 300px;
+    object-fit: contain;
+    width: 250px;
+    /* box-sizing: content-box; */
+}
+
+.poster_img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.poster::-webkit-scrollbar{
+    display: none;
+}
